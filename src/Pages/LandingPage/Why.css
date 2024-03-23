@@ -1,0 +1,118 @@
+.whead {
+    color: rgb(20, 23, 83);
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 50px;
+}
+
+.un {
+    margin: auto;
+    margin-top: 10px;
+    height: 7px;
+    width: 600px;
+    background-color: rgb(20, 23, 83);
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.5);
+}
+
+.slidebar {
+    display: flex;
+}
+.AImiddle{
+   position: relative;
+}
+
+.middle {
+    width: 899px;
+    height: 345px;
+    background-color: rgb(20, 23, 83);
+    margin: 130px;
+    border-radius: 30px;
+    position: absolute;
+    transform: rotate(5deg);
+    opacity: 0.8;
+
+}
+.middle1 {
+    width: 879px;
+    height: 345px;
+    background-color: rgb(20, 23, 83);
+    margin: 130px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0;
+    left: 13px;
+    display: flex;
+    justify-content: space-around;
+}
+.middle2 {
+    width: 899px;
+    height: 345px;
+    background-color: rgb(21, 22, 83);
+    margin: 130px;
+    border-radius: 30px;
+    transform: rotate(-5deg);
+    position: relative;
+    top: 0;
+    
+    opacity: 0.5;
+
+}
+.AI {
+    width: 223px;
+    height: 347px;
+    background-color: rgb(20, 23, 83);
+    border-radius: 20px;
+}
+
+.AI1 {
+    width: 223px;
+    height: 347px;
+    background-color: rgb(20, 23, 83);
+    float: right;
+    border-radius: 20px;
+
+}
+.AI , .AI1{
+    text-align: center;
+    padding: 40px;
+}
+.AI , .AI1 p{
+    font-size: 35px;
+
+}
+
+.bot{
+    margin: auto;
+}
+.bot p{
+    font-size: 35px;
+}
+.o{
+ color: black;
+}
+.last{
+    margin: auto;
+    background-image: url(src/pictures/foot.png);
+    background-size: cover;
+    height: 600px;
+    width: 85%;
+}
+.getstarted{
+    float: right;
+    padding-top: 450px;
+    padding-right: 50px;
+}
+#getbtn{
+    
+    color: black;
+    font-size:xx-large;
+    font-weight: bold;
+   background-color: rgb(141,172,207);
+   height: 80px;
+   width: 350px;
+   border-radius: 40px;
+}
+.end{
+    height: 20px;
+}

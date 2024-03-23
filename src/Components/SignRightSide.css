@@ -1,0 +1,14 @@
+.rightside{
+    width: 50%;
+float: left;
+color: #000;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+
+}
+#rightside{
+    z-index: 1;
+
+}
